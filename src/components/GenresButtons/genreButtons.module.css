@@ -1,0 +1,13 @@
+.buttonWrapper {
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 10px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 500px;
+    margin: 0 auto 0 auto;
+    padding-top:70px ;
+
+}

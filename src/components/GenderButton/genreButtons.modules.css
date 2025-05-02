@@ -1,0 +1,22 @@
+.genreButtons {
+    border-radius: 1000px;
+
+    padding: 8px;
+    transition: background 0.2s ease;
+    border:1px solid #2A2A2A;
+}
+
+.active {
+    background: #8B5CF6;
+}
+.active:hover{
+    background: #7C3AED;
+}
+
+.inactive {
+    background: #383838;
+    color: white;
+}
+.inactive:hover {
+    background: #1a1a1a;
+}

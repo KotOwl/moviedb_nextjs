@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+}
+.no_results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    gap: 2rem;
+    color: #E0E0E0;
+
+}
+
+.no_results img {
+    max-width: 50%;
+    height: auto;
+    opacity: 0.8;
+
+}
+
+.no_results p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #A78BFA; /* світлий фіолетовий */
+}

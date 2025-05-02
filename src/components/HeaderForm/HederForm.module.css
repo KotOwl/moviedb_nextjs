@@ -1,0 +1,36 @@
+.headerForm {
+    display: flex;
+    gap: 0.5rem;
+    background-color: #121212;
+    padding: 0.5rem;
+    border: 1px solid #444;
+    border-radius: 16px;
+}
+
+.headerInput {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    outline: none;
+}
+
+.headerFormButton {
+    background-color: #8B5CF6;
+    color: #ffffff;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 16px;
+    width: 35px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerFormButton:hover {
+    background-color: #7C3AED;
+
+}
