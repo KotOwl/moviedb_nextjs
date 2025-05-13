@@ -9,6 +9,15 @@ type Props ={
     searchParams:Promise<SearchParams>
 }
 
+export const generateMetadata= async ({params}:Props)=>{
+    const {pages} = await params
+
+    return{
+        title:"Film by name page: " + pages,
+        description:'Page where user can find film by name'
+    }
+}
+
 const PagesPage:FC<Props> = async ({params,searchParams}) => {
     const {pages}= await params
     const {genres}=await searchParams

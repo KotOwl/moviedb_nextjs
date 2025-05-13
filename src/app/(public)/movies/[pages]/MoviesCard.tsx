@@ -13,7 +13,7 @@ type Props = {
 export const MovieCard: FC<Props> = ({ movie }) => {
     return (
         <Link href={{pathname:'/movies',query:{movieInfo:JSON.stringify(movie)}}}>
-        <div className={styles.card}>
+        <div className={styles.cardMovie}>
             { movie.poster_path ? <img
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                 alt={movie.title}

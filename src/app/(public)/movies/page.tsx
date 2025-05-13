@@ -5,6 +5,15 @@ import {WholeInfoAboutMovieComponent} from "@/components/WholeInfoAboutMovie/Who
 type Props={
     searchParams:Promise<SearchParams>
 }
+
+export const generateMetadata= async ()=>{
+
+
+    return{
+        title:"Film Information page ",
+        description:'Page where user can read all information about film'
+    }
+}
 const MoviePage:FC<Props> = async ({searchParams}) => {
     const {movieInfo}= await searchParams
     return (
